@@ -1,21 +1,24 @@
 # iso3166
-
 Codes for the representation of names of countries and their subdivisions
-
 * iso3166-1 Country codes, ex: TW
 * iso3166-2 City codes, ex: TW-TPE
 * ~~iso3166-3~~
 
-## ref
+## Project setup
+```
+npm install
+```
 
+### Compiles
+```
+node app.js
+```
+
+### Ref
 * https://zh.wikipedia.org/wiki/ISO_3166
 * https://salsa.debian.org/iso-codes-team/iso-codes/-/tree/master/
 
-## run
-
-* node app.js
-
-## source
+### Source
 
 * iso3166-1
   * iso_3166-1.json
@@ -27,12 +30,13 @@ Codes for the representation of names of countries and their subdivisions
   * ja.po
   * zh_CN.po *翻譯較完整，簡轉繁*
 
-## export
+
+### Export
 
 * iso3166+.json - minify
 * iso3166+debug.json
 
-## history
+### History
 
 * :zap: update Taiwan districts
 * :bug: TW-CYI 嘉義市
