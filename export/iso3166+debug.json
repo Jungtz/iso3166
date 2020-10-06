@@ -3976,13 +3976,15 @@
       "BY-BR": {
         "name": {
           "zh_TW": "布列斯特州",
-          "en": "Brèsckaja voblasc'"
+          "en": "Bresckaja voblasć",
+          "ja": "ウイチェブスク州"
         },
         "code": "BY-BR",
-        "msgid": "Brèsckaja voblasc'"
+        "msgid": "Bresckaja voblasć"
       },
       "BY-HM": {
         "name": {
+          "en": "Horad Minsk",
           "ja": "ミンスク市"
         },
         "code": "BY-HM",
@@ -3991,44 +3993,47 @@
       "BY-HO": {
         "name": {
           "zh_TW": "戈梅利州",
-          "en": "Homel'skaja voblasc'"
+          "en": "Homieĺskaja voblasć",
+          "ja": "ウイチェブスク州"
         },
         "code": "BY-HO",
-        "msgid": "Homel'skaja voblasc'"
+        "msgid": "Homieĺskaja voblasć"
       },
       "BY-HR": {
         "name": {
           "zh_TW": "格羅德諾州",
-          "en": "Hrodzenskaja voblasc'"
+          "en": "Hrodzienskaja voblasć",
+          "ja": "ミンスク州"
         },
         "code": "BY-HR",
-        "msgid": "Hrodzenskaja voblasc'"
+        "msgid": "Hrodzienskaja voblasć"
       },
       "BY-MA": {
         "name": {
           "zh_TW": "莫吉廖夫州",
-          "en": "Mahilëuskaja voblasc'"
+          "en": "Mahilioŭskaja voblasć",
+          "ja": "ミンスク州"
         },
         "code": "BY-MA",
-        "msgid": "Mahilëuskaja voblasc'"
+        "msgid": "Mahilioŭskaja voblasć"
       },
       "BY-MI": {
         "name": {
           "zh_TW": "明斯克州",
-          "en": "Minskaja voblasc'",
+          "en": "Minskaja voblasć",
           "ja": "ミンスク州"
         },
         "code": "BY-MI",
-        "msgid": "Minskaja voblasc'"
+        "msgid": "Minskaja voblasć"
       },
       "BY-VI": {
         "name": {
           "zh_TW": "維捷布斯克州",
-          "en": "Vicebskaja voblasc'",
+          "en": "Viciebskaja voblasć",
           "ja": "ウイチェブスク州"
         },
         "code": "BY-VI",
-        "msgid": "Vicebskaja voblasc'"
+        "msgid": "Viciebskaja voblasć"
       }
     }
   },
@@ -27293,24 +27298,6 @@
         "code": "NO-15",
         "msgid": "Møre og Romsdal"
       },
-      "NO-16": {
-        "name": {
-          "zh_TW": "南特倫德拉格",
-          "en": "Sir-Trindelag",
-          "ja": "セールトレネダーグ"
-        },
-        "code": "NO-16",
-        "msgid": "Sør-Trøndelag"
-      },
-      "NO-17": {
-        "name": {
-          "zh_TW": "北特倫德拉格",
-          "en": "Nord-Trindelag",
-          "ja": "ノールトレネダーグ"
-        },
-        "code": "NO-17",
-        "msgid": "Nord-Trøndelag"
-      },
       "NO-18": {
         "name": {
           "zh_TW": "諾爾蘭",
@@ -27347,6 +27334,15 @@
         "name": {},
         "code": "NO-22",
         "msgid": "Jan Mayen (Arctic Region)"
+      },
+      "NO-50": {
+        "name": {
+          "zh_TW": "南特倫德拉格",
+          "en": "Sir-Trindelag",
+          "ja": "セールトレネダーグ"
+        },
+        "code": "NO-50",
+        "msgid": "Trøndelag"
       }
     }
   },

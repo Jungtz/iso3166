@@ -16,7 +16,7 @@ node app.js
 
 ### Ref
 * https://zh.wikipedia.org/wiki/ISO_3166
-* https://salsa.debian.org/iso-codes-team/iso-codes/-/tree/master/
+* https://salsa.debian.org/iso-codes-team/iso-codes/-/tree/main/
 
 ### Source
 
@@ -41,4 +41,4 @@ node app.js
 * :zap: update Taiwan districts
 * :bug: TW-CYI 嘉義市
 * :bug: KE-30 is "Nairobi City"
-* :sparkles: 中華民國台灣是擁有完整對內主權且獨立自治的國家!
+* :sparkles: 中華民國台灣是擁有完整主權且獨立自治的國家!

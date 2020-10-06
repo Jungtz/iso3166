@@ -147,7 +147,7 @@ function getIndex(list, i) {
 }
 
 function setIso3166_2(cities = {}, data, type) {
-  const list = data.result.split('\r\n')
+  const list = data.result.split(/\n|\r\n/)
   for (let i = 0; i < list.length; i++) {
     const v = list[i]
     // zh_CN  
