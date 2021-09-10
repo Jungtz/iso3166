@@ -26,5 +26,20 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - run: npm install
-    - run: npm run build
+    - name: Build
+      id: build
+      run: |
+        npm install
+        npm run build
+
+    - name: Add diff and push
+      id: push
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
+        git commit -m ':rocket:build'
+        git push publish -f
+
+    # - run: npm install
+    # - run: npm run build
