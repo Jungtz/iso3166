@@ -33,8 +33,8 @@ npm run build
 
 ### Export
 
-* iso3166+.json - minify
-* iso3166+debug.json
+* [iso3166+.json](https://jungtz.github.io/iso3166/iso3166+.json) - minify
+* [iso3166+debug.json](https://jungtz.github.io/iso3166/iso3166+debug.json)
 
 ### History
 
