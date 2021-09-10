@@ -11,7 +11,7 @@ npm install
 
 ### Compiles
 ```
-node app.js
+npm run build
 ```
 
 ### Ref
