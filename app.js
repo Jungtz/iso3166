@@ -4,18 +4,18 @@ const request = require("request")
 
 init()
 async function init() {
-  // https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/master/iso_3166-2/zh_CN.po
+  // https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/main/iso_3166-2/zh_CN.po
   // zh_CN 的翻譯有63.2% 先用殘體轉正體
-  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-2/zh_CN.po
+  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-2/zh_CN.po
 
   // getUrlData(url).then(data => {
   // 台灣是自主獨立的國家!
 
   const countriesType = ['zh_TW', 'ja']
-  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/data/iso_3166-1.json
+  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/data/iso_3166-1.json
   // 
-  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-1/zh_TW.po
-  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-1/ja.po
+  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-1/zh_TW.po
+  // https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-1/ja.po
   let countries = {}
   const promises_countries = [
     getFileContent('./data/iso3166-1/iso_3166-1.json'),
@@ -63,9 +63,9 @@ async function init() {
   }
 
   const citiesType = ['zh_TW', 'en', 'ja']
-  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-2/zh_CN.po'
-  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-2/en.po'
-  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/master/iso_3166-2/ja.po'
+  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-2/zh_CN.po'
+  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-2/en.po'
+  // const url = 'https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/iso_3166-2/ja.po'
   let cities = {}
   const promises_cities = [
     getFileContent('./data/iso3166-2/zh_CN.po'),//用word直翻繁體
@@ -103,8 +103,8 @@ async function init() {
     }
   }
 
-  const filepath = path.join(__dirname, `export/iso3166+.json`)
-  const filepath_debug = path.join(__dirname, `export/iso3166+debug.json`)
+  const filepath = path.join(__dirname, `dist/iso3166+.json`)
+  const filepath_debug = path.join(__dirname, `dist/iso3166+debug.json`)
   exportFile(filepath, JSON.stringify(countries))
   exportFile(filepath_debug, JSON.stringify(countries, null, 2))
 
