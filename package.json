@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Jungtz/iso3166#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.9",
     "request": "^2.88.2"
   }
 }
