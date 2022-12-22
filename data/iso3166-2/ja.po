@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: iso_3166-2\n"
 "Report-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/"
 "issues\n"
-"POT-Creation-Date: 2021-08-27 13:34+0200\n"
+"POT-Creation-Date: 2022-06-01 15:01+0200\n"
 "PO-Revision-Date: 2021-08-04 17:47+0000\n"
 "Last-Translator: TANIGUCHI Yasuaki <yasuakit+weblate@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/iso-codes/"
@@ -3158,6 +3158,13 @@ msgstr "シャンシー(山西)"
 msgid "Tianjin Shi"
 msgstr "ティエンチン(天津)"
 
+# 地図帳
+#. Name for CN-TW
+#, fuzzy
+#| msgid "Hainan"
+msgid "Taiwan Sheng"
+msgstr "ハイナン(海南)"
+
 #. Name for CN-XJ
 msgid "Xinjiang Uygur Zizhiqu"
 msgstr ""
@@ -5424,7 +5431,7 @@ msgstr "ティグライ"
 
 # フィンランド
 #. Name for FI-01
-msgid "Ahvenanmaan maakunta"
+msgid "Åland"
 msgstr ""
 
 #. Name for FI-02
@@ -5444,7 +5451,7 @@ msgid "Kainuu"
 msgstr ""
 
 #. Name for FI-06
-msgid "Egentliga Tavastland"
+msgid "Kanta-Häme"
 msgstr ""
 
 #. Name for FI-07
@@ -5466,7 +5473,7 @@ msgstr "ラッピ"
 #. Name for FI-11
 #, fuzzy
 #| msgid "Hordaland"
-msgid "Birkaland"
+msgid "Pirkanmaa"
 msgstr "ホルダラン"
 
 #. Name for FI-12
@@ -5474,35 +5481,35 @@ msgid "Pohjanmaa"
 msgstr ""
 
 #. Name for FI-13
-msgid "Norra Karelen"
+msgid "Pohjois-Karjala"
 msgstr ""
 
 #. Name for FI-14
-msgid "Norra Österbotten"
+msgid "Pohjois-Pohjanmaa"
 msgstr ""
 
 #. Name for FI-15
-msgid "Norra Savolax"
+msgid "Pohjois-Savo"
 msgstr ""
 
 #. Name for FI-16
-msgid "Päijänne-Tavastland"
+msgid "Päijät-Häme"
 msgstr ""
 
 #. Name for FI-17
 #, fuzzy
 #| msgid "Tambacounda"
-msgid "Satakunda"
+msgid "Satakunta"
 msgstr "タンバクンダ"
 
 #. Name for FI-18
 #, fuzzy
 #| msgid "Maryland"
-msgid "Nyland"
+msgid "Uusimaa"
 msgstr "メリーランド"
 
 #. Name for FI-19
-msgid "Egentliga Finland"
+msgid "Varsinais-Suomi"
 msgstr ""
 
 #. Name for FJ-01
@@ -6425,6 +6432,12 @@ msgstr ""
 msgid "Enfield"
 msgstr ""
 
+#. Name for GB-ENG
+#, fuzzy
+#| msgid "Long Island"
+msgid "England"
+msgstr "ロング島"
+
 #. Name for GB-ERW
 msgid "East Renfrewshire"
 msgstr "東レンフルーシャー"
@@ -6683,6 +6696,12 @@ msgstr "ノーフォーク"
 msgid "Nottingham"
 msgstr ""
 
+#. Name for GB-NIR
+#, fuzzy
+#| msgid "New Ireland"
+msgid "Northern Ireland"
+msgstr "ニューアイルランド"
+
 #. Name for GB-NLK
 msgid "North Lanarkshire"
 msgstr ""
@@ -6810,6 +6829,12 @@ msgstr ""
 #. Name for GB-SCB
 msgid "Scottish Borders"
 msgstr ""
+
+#. Name for GB-SCT
+#, fuzzy
+#| msgid "Southland"
+msgid "Scotland"
+msgstr "サウスランド"
 
 #. Name for GB-SFK
 msgid "Suffolk"
@@ -6977,6 +7002,10 @@ msgstr ""
 
 #. Name for GB-WLN
 msgid "West Lothian"
+msgstr ""
+
+#. Name for GB-WLS
+msgid "Wales [Cymru GB-CYM]"
 msgstr ""
 
 #. Name for GB-WLV
@@ -19803,7 +19832,7 @@ msgstr "宜蘭"
 
 #. Name for TW-KEE
 #, fuzzy
-#| msgid "Keelung"
+#| msgid "Keelung City"
 msgid "Keelung"
 msgstr "基隆市"
 
@@ -19827,6 +19856,10 @@ msgstr "苗栗"
 msgid "Nantou"
 msgstr "南投"
 
+#. Name for TW-NWT
+msgid "New Taipei City"
+msgstr "新北市"
+
 #. Name for TW-PEN
 msgid "Penghu"
 msgstr "澎湖"
@@ -19846,10 +19879,6 @@ msgstr "台南市"
 #. Name for TW-TPE
 msgid "Taipei City"
 msgstr "台北市"
-
-#. Name for TW-NWT
-msgid "New Taipei City"
-msgstr "新北市"
 
 #. Name for TW-TTT
 msgid "Taitung"
