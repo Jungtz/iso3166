@@ -9929,10 +9929,8 @@ msgid "Murang'a"
 msgstr "杜蘭戈州"
 
 #. Name for KE-30
-#, fuzzy
-#| msgid "Taipei City"
 msgid "Nairobi City"
-msgstr "臺北市"
+msgstr "奈洛比"
 
 #. Name for KE-31
 msgid "Nakuru"

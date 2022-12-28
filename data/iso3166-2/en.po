@@ -10128,10 +10128,8 @@ msgid "Murang'a"
 msgstr "Durango"
 
 #. Name for KE-30
-#, fuzzy
-#| msgid "Taipei City"
 msgid "Nairobi City"
-msgstr "Taipei City"
+msgstr "Nairobi City"
 
 #. Name for KE-31
 msgid "Nakuru"
