@@ -93,7 +93,7 @@ async function init() {
         countries[city.code].cities = {}
       }
       countries[city.code].cities[city.city_code] = {
-        name: name,
+        name,
         code: city.city_code,
         msgid: city.msgid
       }
@@ -113,7 +113,7 @@ async function init() {
 }
 
 function setIso3166_1(countries = {}, data, type) {
-  const list = data.result.split('\r\n')
+  const list = data.result.split(/\n|\r\n/g)
   for (let i = 0; i < list.length; i++) {
     const v = list[i]
     if (v.indexOf('#. Name for ') === 0) {
@@ -147,7 +147,7 @@ function getIndex(list, i) {
 }
 
 function setIso3166_2(cities = {}, data, type) {
-  const list = data.result.split(/\n|\r\n/)
+  const list = data.result.split(/\n|\r\n/g)
   for (let i = 0; i < list.length; i++) {
     const v = list[i]
     // zh_CN  
