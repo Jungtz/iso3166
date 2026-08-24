@@ -2,17 +2,18 @@ name: CI/CD
 
 on:
   push:
-  # pull_request:
     branches: [ master ]
+
+permissions:
+  contents: write
 
 jobs:
   build:
     name: Build and deploy
     env:
-      MY_SECRET   : ${{secrets.commit_secret}}
-      USER_NAME: githubaction
-      USER_EMAIL: githubaction@github.com
-      PUBLISH_DIR : ./dist
+      USER_NAME: github-actions[bot]
+      USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+      PUBLISH_DIR: ./dist
 
     runs-on: ubuntu-latest
 
@@ -36,10 +37,10 @@ jobs:
       run: |
         cd $PUBLISH_DIR
         git init
-        git config --global user.name $USER_NAME
-        git config --global user.email $USER_EMAIL
+        git config --global user.name "$USER_NAME"
+        git config --global user.email "$USER_EMAIL"
         git status
-        git remote add origin https://$MY_SECRET@github.com/$GITHUB_REPOSITORY.git
+        git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         git checkout -b gh-pages
         git add --all
         git commit -m ':rocket:build'
