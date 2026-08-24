@@ -18,19 +18,15 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [22.x]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-
-    - name: npm install
-      run: |
-        npm install
 
     - name: npm run build
       run: |
@@ -48,6 +44,3 @@ jobs:
         git add --all
         git commit -m ':rocket:build'
         git push origin gh-pages -f
-
-    # - run: npm install
-    # - run: npm run build
