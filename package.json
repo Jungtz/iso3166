@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Jungtz/iso3166/issues"
   },
-  "homepage": "https://github.com/Jungtz/iso3166#readme",
-  "dependencies": {
-    "request": "^2.88.2"
-  }
+  "homepage": "https://github.com/Jungtz/iso3166#readme"
 }
